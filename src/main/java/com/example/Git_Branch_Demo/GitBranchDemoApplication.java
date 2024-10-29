@@ -9,5 +9,9 @@ public class GitBranchDemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GitBranchDemoApplication.class, args);
 	}
+	//@GetMapping("/hello")
+    public String hello() {
+      return String.format("Hello this is the world of DevOps");
+    }
 
 }

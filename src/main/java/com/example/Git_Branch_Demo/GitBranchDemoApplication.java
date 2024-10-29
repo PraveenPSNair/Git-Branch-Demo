@@ -13,5 +13,11 @@ public class GitBranchDemoApplication {
     public String hello() {
       return String.format("Hello this is the world of DevOps");
     }
+    public String welcome() {
+        return String.format("Welcome to the world of DevOps");
+      }
+    public String ready() {
+        return String.format("Are u ready to travel with DevOps");
+      }
 
 }
